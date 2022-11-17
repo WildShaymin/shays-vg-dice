@@ -7,26 +7,32 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         bump: "modules/shays-vg-dice/textures/shrineb.webp"
 	});
 
-  dice3d.addSystem({id:"HyTri",name:"Triforce"},"default");
+  dice3d.addSystem({id:"Triforce",name:"Triforce"},"default");
 
   dice3d.addDicePreset({
     type:"d20",
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/shays-vg-dice/faces/hytri.webp'
+      'modules/shays-vg-dice/faces/triforce.webp'
     ],
-    system:"HyTri"
+	 bumpMaps: [,,,,,,,,,,,,,,,,,,,
+    'modules/shays-vg-dice/faces/triforce_bump.webp'
+  ],
+    system:"Triforce"
   });
   
-    dice3d.addSystem({id:"LoTri",name:"Inverted Triforce"},"default");
+  dice3d.addSystem({id:"Sheikah",name:"Sheikah"},"default");
 
   dice3d.addDicePreset({
-    type:"d20",
+    type:"d20","d12","d10","d8","d6","d4"
     labels:[
       '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'modules/shays-vg-dice/faces/lotri.webp'
+      'modules/shays-vg-dice/faces/sheikah.webp'
     ],
-    system:"LoTri"
+	 bumpMaps: [,,,,,,,,,,,,,,,,,,,
+    'modules/shays-vg-dice/faces/sheikah_bump.webp'
+  ],
+    system:"Sheikah"
   });
 
   dice3d.addSystem({id:"Dragon20",name:"⁂ Dragon20 (d20, 20 best)"},false);
