@@ -1,0 +1,26 @@
+{
+  "name": "shays-vg-dice",
+  "id": "shays-vg-dice",
+  "title": "WildShaymin's Video Game Dice",
+  "description": "Adds custom dice faces and textures based off of video games.",
+  "version": "0.1",
+  "readme": "https://github.com/WildShaymin/shays-vg-dice/blob/main/README.md",
+  "changelog": "https://github.com/WildShaymin/shays-vg-dice/blob/main/Changelog.md",
+  "author": "WildShaymin",
+  "authors": [
+    {
+      "name": "WildShaymin"
+    }
+  ],
+  "scripts": ["scripts/shays-vg-dice.json"],
+  "url": "https://github.com/WildShaymin/shays-vg-dice",
+  "manifest": "https://raw.githubusercontent.com/WildShaymin/shays-vg-dice/main/module.json",
+  "download": "https://raw.githubusercontent.com/WildShaymin/shays-vg-dice/main/module.zip",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": 10,
+    "maximum": 10
+  }
+}
